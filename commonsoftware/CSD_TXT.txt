@@ -1,0 +1,22 @@
+﻿The Common Software Definition
+
+	Facing the modern expropriation of the Free Software movement by rent-seekers and other elements of ruthless exploitation, the Common Software Definition has emerged as a provision to be adopted by the people’s technical intelligentsia as a legalist obstacle against the expropriation of use-value from projects.
+
+	The Common Software Definition believes that provisions that prevent the expropriation of the use-value of projects via “incorporation” are a necessary legal tool to protect not only the makers of such software from exploitation – but also to prevent software from being used to exploit the lower classes by advocating for a restructuring of the open development model.
+
+	Instead of simply pushing for “more” or “less” freedom, the CSD seeks to exalt the freedoms which benefit the community of value-creators that emerge from software projects (programmers, writers, artists and other specialties) insofar as those freedoms do not harm the workers which the implementation of such software may affect. Of course, the bourgeois agent which seeks to accumulate commodity capital will ferociously incorporate anything they deem fit into their monopolies composed by commodity capital, but the CSD seeks to act as a “wedge” against those interests, rather than some soft of impenetrable shield.
+
+	We reject the Free-Proprietary software paradigm, because we believe that the definition of “freedom” among the technical intelligentsia has always excluded the freedom of the vulnerable. We do not predicate our definition of freedom purely on freedom of redistribution – Instead, we seek the re-introduction of the community as an institution in itself, resisting the liberalization efforts put forth by the Free Software Foundation and Open Source Initiative.
+
+	We also reject the view of any software definition or license as a philosophical paradigm. Seeing any piece of software “philosophy” as a holy book is a distraction against real, material forms of exploitation that happen when it is expropriated and implemented as a way to cause direct harm – for example, to automate away jobs or to create weaponry.
+
+	We are guided by materialism rather than strict idealistic philosophical guidelines: that is why there is no such thing as a “pure” Common Software license. While we have our provisions, it is impossible to cover all potential cases where harm may be caused. A basic analysis of your software’s use-cases may help guide you towards an adaptation of our license, but the standard license provided in this definition covers most potential use-cases.
+
+
+The Five Provisions
+
+    1. The freedom for any worker to run the program as they wish.
+    2. The freedom for any worker to decide to limit the use of the software they have produced for any purpose or category of purposes shall not be restricted, as long as the limitations do not infringe on the security and well-being of the commons, and are directed towards limiting the expropriation of use-value by the bourgeoisie and their agents.
+    3. The freedom for any worker to study how the program works and change its functionality so it does your computing as you wish. Access to the source-code is a precondition for this.
+    4. The right of the commons to be provided with changes to the software is essential to the security of the commons and to the people who rely on the software that the commons produces. Due to such a need, the provision of significant changes to the commons, in so far as can be permitted by circumstances, is required.
+    5. The right for any natural person and the commons to resist expropriation of their work by companies that do not act as fronts for proletarian organizations. Co-operatives are excluded from the definition of a “proletarian organization”, as the collective capital of the co-operative is beholden to international capital and reinforces the capitalist firm.

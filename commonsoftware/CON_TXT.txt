@@ -1,0 +1,19 @@
+﻿The Common Conduct
+
+	We, the contributors and value-creators of [Project Name], reaffirm our total commitment to the goal of liberating the proletarians of all strata and of inserting a wedge into the door of value expropriation. We solemnly undertake to respect, defend and promote such a goal in the spirit of the fundamental declarations of the Common Software Definition and of the purpose of our project.
+
+	The indispensable organ of [Project Name] is the Commons. The project’s organization must strive to unify the efforts of those workers who provide labor to the project and of the other workers which rely on it or interact with it on a daily basis.  The interests of such an alliance – the Commons – must be unified to fulfill the core value of Common Software, which is stopping the expropriation of our labor by the capitalists and its incorporation into their commodities.
+
+	We also commit to the safety of the Commons as a whole. We strive for fair treatment of those  who directly use and contribute to the development of [Project Name], and for the well-being those workers who are affected by it. We also commit to maintaining the mental and physical well-being of the value-creators of [Project Name], which provide their labor while relying on the anti-expropriation protections Common Software delivers unto their work.
+
+	To the best of our ability, we seek to condemn and stamp out behavior in [Project Name]:
+
+    • That presents itself as reactionary, particularly presenting itself as LGBTQ+phobic, racist, misogynistic, xenophobic, ableist, and against progressive forms of personal (or non-personal) expression.
+    • That seeks to sexually coerce, rape, unwantedly expose, blackmail, or sexually harass those in the project.
+    • That causes significant legal grief inside the project.
+    • That favors the expropriation of value from the project, or that disregards the word of active contributors inside [Project Name] as of lesser importance due to their role in it.
+    • That attempts to minimize reasonable internal concerns about [Project Name]’s usage inside certain fields of endeavor.
+
+	It is the responsibility of the project leaders, to provide relevant private contact information and treat reports with due respect and secrecy, and to act in the spirit the Common Conduct, not using it as a rule-book and being unafraid to take swift action. Reports of extreme severity such as reports relating to reactionary behavior and sexual abuse shall not be turned into matters of all-community deliberation unless such reports relate to parts of the project leadership. It is also extremely important to respect the sanctity of a victim’s privacy while not being afraid to set examples for the future.
+
+	In the case of handling sexual misconduct, perpetrators should be handled harshly and with very little prejudice, and, depending on the gravity of the misconduct, the victim should be assisted in pursuing a legal route (if they wish to do so).
