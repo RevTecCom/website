@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>RTC Updates</title>
+    <link>https://comrades.sbs</link>
+    <description>A feed of updates relating to the work of the Revolutionary Technical Committee</description>
+    <language>en-us</language>
+    <managingEditor>admin@comras.sbs</managingEditor>
+    <item>
+      <title>Class Suicide Digital Library</title>
+      <pubDate>Thu, 27 Jul 2023 17:39:47 -0300</pubDate>
+      <description><![CDATA[The RTC now hosts a masked redirect to the "Class Suicide" digital library at class-suicide.comrades.sbs (http only).]]></description>
+    </item>
+  </channel>
+</rss>
