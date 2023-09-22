@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Montserrat&family=Open+Sans&family=PT+Sans&family=Roboto+Condensed&display=swap" rel="stylesheet"><meta property="og:type" content="website">
+<meta property="og:url" content="https://comrades.sbs/">
+<meta property="og:title" content="A 'Novel' Discord Token Stealer Malware - 'Eiifel'">
+<meta property="og:description" content="A new piece of Malware is making it's way through Discord. It hides itself as a game on the itch.io platform. It seems to be pretty old in the grand scheme of threats, dating back to about a month, but is still actively updated, or the developer was compromised and pushed a bad update. While the former is more likely, the latter is a small possibility. [...]">
+<meta property="og:image" content="https://comrades.sbs/images/favico.ico">
+	<title>A 'Novel' Discord Token Stealer Malware - &quot;Eiifel&quot;</title>
+	<style type="text/css">
+		a { color:#5D5D9E; } 
+		a:visited { color:#5D5D9E; } 
+		a:active { color:#5C615E; } 
+		a:hover { color:#B2B3B4; } 
+		a.wsp16c06f69{ color:#4A4A4A; text-decoration: underline} 
+		a.wsp16c06f69:visited{ color:#626262; text-decoration: underline} 
+		a.wsp16c06f69:active{ color:#828282; text-decoration: underline} 
+		a.wsp16c06f69:hover{ color:#2B2B2B; text-decoration: underline} 
+		#menu_4d31c33f a { text-decoration: none; }
+		#menu_4d31c33f_pane { background-color: #E6E6E6; border: 1px solid #646464; padding-top: 10px; padding-bottom: 10px; box-shadow: 2px 2px 6px 0px rgba(8, 8, 8, 0.784314); }
+		#menu_4d31c33f_hr { background-color: #646464; height: 1px; border: none; }
+		#menu_4d31c33f_entry { padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; }
+		#menu_4d31c33f_entry:hover { background-color: #FFFFFF; color: #FFFFFF !important; }
+		#menu_4d31c33f_entry:hover span { color:#FFFFFF !important; }
+		.menu_4d31c33f_mainMenuEntry { text-align: center; }
+		.menu_4d31c33f_mainMenuEntry:hover {	background-color:#282828; }
+		.menu_4d31c33f_mainMenuEntry:hover span {	color:#FFFFFF !important; }
+		#menu_4d31c33f .mobileEntry { display: none; } 
+		#menu_4d31c33f .normalEntry { display: block; } 
+		#menu_4d31c33f_menualignmentwrapper{ width:619px; left: calc(50% - 309px);  } 
+		@media only screen and (max-width:550px) { 
+			#menu_4d31c33f .mobileEntry { display: block; } 
+			#menu_4d31c33f .normalEntry { display: none; } 
+			#menu_4d31c33f_menualignmentwrapper { width:37px; left: calc(50% - 18px);  } 
+		}
+	</style>
+</head>
+<body style="background-color:#FFFFFF; padding:0;  margin: 0;">
+<div style="text-align:left;">
+<div style="vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none; " id="container_3a4e7816"><div style="text-align:center;"><img src="../assets/obbanner2.png" width="2192" height="230" style="vertical-align: bottom; position:relative; display: inline-block; width:100%; background:none; height:auto; " id="img_12e7620" alt="" title="" /><div id="menu_4d31c33f" style="box-sizing: border-box; vertical-align: top; position:relative; display: inline-block; width:100%; height:40px; text-align:left; background-color:#D6D6D6; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #404040; "><div  style="position: relative; overflow: visible; height: 100%;" id="menu_4d31c33f_menualignmentwrapper" ><div  style="position: relative; overflow: hidden; width: 100%; height: 100%;"><a href="javascript:void(0);">
+	<div id="menuentry_5af520cb"  class="menu_4d31c33f_mainMenuEntry mobileEntry" style="position:absolute; width:37px; height:40px; left:0px; ">
+		<div style="position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:33px; ">
+  <span style="font-size:22pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;">&#8801;</span>
+		</div>
+	</div>
+</a>
+<a href="../index.html" style="text-decoration:none">
+	<div id="menuentry_1b724e5d"  class="menu_4d31c33f_mainMenuEntry normalEntry" style="position:absolute; width:103px; height:40px; left:0px; ">
+		<div style="position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:19px; ">
+  <span style="font-size:12pt; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  white-space: nowrap;">Homepage</span>
+		</div>
+	</div>
+</a>
+<a href="../join.html" style="text-decoration:none">
+	<div id="menuentry_39d95503"  class="menu_4d31c33f_mainMenuEntry normalEntry" style="position:absolute; width:161px; height:40px; left:103px; ">
+		<div style="position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:19px; ">
+  <span style="font-size:12pt; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  white-space: nowrap;">Become a Member</span>
+		</div>
+	</div>
+</a>
+<a href="../support.html" style="text-decoration:none">
+	<div id="menuentry_40946e16"  class="menu_4d31c33f_mainMenuEntry normalEntry" style="position:absolute; width:168px; height:40px; left:264px; ">
+		<div style="position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:19px; ">
+  <span style="font-size:12pt; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  white-space: nowrap;">Support Financially</span>
+		</div>
+	</div>
+</a>
+<a href="javascript:void(0);">
+	<div id="menuentry_1f24343e"  class="menu_4d31c33f_mainMenuEntry normalEntry" style="position:absolute; width:187px; height:40px; left:432px; ">
+		<div style="position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:19px; ">
+  <span style="font-size:12pt; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  white-space: nowrap;">Texts and Documents</span>
+		</div>
+	</div>
+</a>
+
+	<script type="text/javascript" src="../assets/wsp_menu.js"></script>
+	<script type="text/javascript">
+		var js_menu_4d31c33f= new wsp_menu('menu_4d31c33f', 'menu_4d31c33f', 10);
+
+		js_menu_4d31c33f.createMenuForItem('menuentry_5af520cb', ["  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">Homepage</span> ", '../index.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">Become a Member</span> ", '../join.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">Support Financially</span> ", '../support.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">Texts and Documents</span> ", 'javascript:void(0);', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">&#160;&#160;&#160;Organizational Documents</span> ", '../docs.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">&#160;&#160;&#160;News</span> ", '../periodical.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">&#160;&#160;&#160;Software Listing</span> ", '../clist.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">&#160;&#160;&#160;Other</span> ", '../other.html', '']);
+		js_menu_4d31c33f.createMenuForItem('menuentry_1b724e5d', []);
+		js_menu_4d31c33f.createMenuForItem('menuentry_39d95503', []);
+		js_menu_4d31c33f.createMenuForItem('menuentry_40946e16', []);
+		js_menu_4d31c33f.createMenuForItem('menuentry_1f24343e', ["  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">Organizational Documents</span> ", '../docs.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">News</span> ", '../periodical.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">Software Listing</span> ", '../clist.html', '',
+		                                   "  <span style=\"font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap;\">Other</span> ", '../other.html', '']);
+
+	</script>
+</div></div></div></div>
+</div><div  style="box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:100%; border: 1px solid #A0A0A0; " id="placeh_162c04d3" >
+  <div style="text-align:left;">
+<span style="font-size:12pt; font-family:''Open Sans'', serif; color:#000000; "><br/></span>    </div>
+  <div style="text-align:center;">
+<div style="vertical-align: top; position:relative; display: inline-block; width:80%; min-height:350px; background:none; " id="container_48916986"><div style="margin: 10px; display: block; " id="container_48916986_padding" ><div style="text-align:left;"><span style="font-size:20pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold; ">A 'Novel' Discord Token Stealer Malware - &quot;Eiifel&quot;</span><span style="font-size:16pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold; "><br/><br/></span><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; ">A new piece of Malware is making it's way through Discord. It hides itself as a game on the itch.io platform. It seems to be pretty old in the grand scheme of threats, dating back to about a month, but is still actively updated, or the developer was compromised and pushed a bad update. While the former is more likely, the latter is a small possibility.<br/><br/>We are not sure about anything, but we do know this program steals Discord tokens and attempts to make Discord Nitro gift purchases. While assisting an affected individual with removal, we went through all standard operation procedures.<br/><br/>The malware is distributed as a RAR archive, which contains an installer, below are the MD5 hashes for the archive and the installer, in order:<br/><br/></span><span style="font-size:14pt; font-family:'Courier New', Courier, monospace; color:#000000; ">Setup.rar - feacdc9a0f54f87239be1cc06d12a30e<br/>Setup.exe - 4eef5ea6d623a1baa1e882286b1c848c</span></div>
+</div></div><div style="vertical-align: top; position:relative; display: inline-block; width:80%; min-height:350px; background:none; " id="container_6dbc64e9"><div style="margin: 10px; display: block; " id="container_6dbc64e9_padding" ><div style="text-align:left;"><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; ">Although we cannot set up a proper sandbox to explore this piece of software in depth just yet, we have a few notes on this malware as a result of assisting the aforementioned affected individual.<br/><br/>This malware is likely to be a completely new concoction, maybe something new sold to a skiddie for a quick buck, either way, it is a hit-and-run ordeal, obvious in its operation. We would call it a worm, but the author/operator clearly logs into accounts manually to choose his targets, either a sign of a focused attack, or more likely a sign that they couldn't be bothered to go through the hoops to set up an auto-messenger - maybe a bit of both.<br/><br/>The installer is a standard NullSoft installer, although, it is likely set up to attempt to run the malware during the installation or once it is complete, as, during the installation, the Discord desktop application of the affected individual restarted.<br/><br/>When the affected individual finished the installation, the installation folder had the following contents:<br/><br/></span><span style="font-size:14pt; font-family:'Courier New', Courier, monospace; color:#000000; ">&lt;Folder named after a UID, possibly HWID?&gt;<br/>locales [folder]<br/>resources [folder]<br/>builld.exe<br/>chrome_100<br/>cookies.zip<br/>d3dcompiler_47.dll<br/>&lt;File named after the same UID as above&gt;.zip<br/>ffmpeg.dll<br/>icudtl.dat<br/>libEGL.dll<br/>libGLESv2.dll</span><span style="font-size:14pt; font-family:'Lucida Console', Monaco, monospace; color:#000000; "><br/></span><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; "><br/>Upon running </span><span style="font-size:14pt; font-family:'Courier New', Courier, monospace; color:#000000; ">build.exe</span><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; ">, it is certain that the malware delivered its payload. It makes itself quite obvious: at least 18 instances of </span>    <span style="font-size:14pt; font-family:'Courier New', Courier, monospace; color:#000000; ">build.exe</span>
+<span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; "> were opened at once. We were not able to count the exact number due to the affected individual only sending one cut off screenshot of how task manager looked at the time, before they powered down their computer.<br/><br/>It is likely that at this stage, or during the installation, the malware populated the following folder, possibly with cookies from Electron and/or Google Chrome:<br/><br/></span><span style="font-size:14pt; font-family:'Courier New', Courier, monospace; color:#000000; ">&lt;Aforementioned folder named after UID&gt;\Wallets\Cookies</span><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; "><br/><br/>At the same stage, the malware wrote to the following files:<br/><br/></span><span style="font-size:14pt; font-family:'Courier New', Courier, monospace; color:#000000; ">&lt;Aforementioned folder named after UID&gt;\Wallets\Autofills.txt<br/>&lt;Aforementioned folder named after UID&gt;\Wallets\Passwords.txt</span><span style="font-size:14pt; font-family:'Lucida Console', Monaco, monospace; color:#000000; "><br/></span><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; "><br/>Quite obvious, isn't it?<br/><br/>What supports our thesis that this is a token stealer is the fact, which we mentioned at the beginning of this text, that the affected individual was charged for 3 Discord Nitro gifts, along with the fact that the legitimate owner of the account used to send the malware to the affected individual later alerted a group of friends to the fact that they had been compromised.<br/><br/>However, we are not sure if the malware exfiltrates any other data, although we obviously heavily suspect it exfiltrates saved passwords and login names.</span></div>
+</div></div><div style="vertical-align: top; position:relative; display: inline-block; width:80%; min-height:350px; background:none; " id="container_36a80373"><div style="margin: 10px; display: block; " id="container_36a80373_padding" ><div style="text-align:left;"><span style="font-size:20pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold; ">Receive a Sample</span><span style="font-size:16pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; font-weight:bold; "><br/><br/></span><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; ">We are willing to transfer a sample of this malware along with a snapshot (+ link) of the webpage it was distributed in to anyone with a legitimate interest in cataloguing it or researching it.<br/><br/>If you wish to receive a sample, contact us at </span><span style="font-size:14pt; font-family:'Courier New', Courier, monospace; color:#000000; ">eiifel (dot) comrades (dot) sbs</span><span style="font-size:14pt; font-family:'PT Sans', Arial, Helvetica, sans-serif; color:#000000; ">, you will have to DEMONSTRATE PROFESSIONAL ACCREDITATION and/or A RELATIONSHIP TO A GROUP DEDICATED TO SECURITY RESEARCH. We will accept NOTHING LESS than such qualifications, all requests require a FULL LEGAL NAME, preferrably one that can be traced back to an e-mail and/or a personal account. Exceptions may be made to content creators or individuals under alias dedicated to malware research that have proven themselves, via their content, to be trusted.<br/><br/>Upon verification, all personally identifiable information related to the request will be disposed of in 48 hours.</span></div>
+</div></div>    </div>
+</div>
+  </div>
+</body>
+</html>
